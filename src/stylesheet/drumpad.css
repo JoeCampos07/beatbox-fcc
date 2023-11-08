@@ -13,7 +13,6 @@
 .pad-bank {
   width: 400px;
   height: 350px;
-  border: solid black 2px;
   display: grid;
   align-items: center;
   padding-top: 25px;
@@ -27,7 +26,6 @@
 .controls-container {
   width: 250px;
   height: 250px;
-  border: solid black 2px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -50,7 +48,6 @@
 .name-label {
   width: 150px;
   height: 35px;
-  border: solid red 1px;
   position: absolute;
   top: 20px;
   right: 15px;
