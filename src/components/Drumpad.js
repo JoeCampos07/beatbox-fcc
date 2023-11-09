@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import '../stylesheet/drumpad.css'
 import Q1 from '../audios/Q1.mp3'
 import Q2 from '../audios/Q2.mp3'
@@ -131,7 +131,6 @@ function Drumpad() {
     }, 2500)
   }
 
-  
 
   return(
     <div className='inner-container'>
