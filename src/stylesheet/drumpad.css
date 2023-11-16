@@ -168,12 +168,17 @@
 
   + .tgl-btn {
     outline: 0;
-    display: block;
+    display: flex;
     width: 4em;
     height: 2em;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
     position: relative;
     cursor: pointer;
     user-select: none;
+    color: #01161e;
     &:after,
     &:before {
       position: relative;

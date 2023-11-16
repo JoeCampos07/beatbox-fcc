@@ -110,3 +110,25 @@ export const firstSounds = [
       sound: require('../audios/C2.mp3'),
       index: 8
     }] 
+
+export const soundLetter = {
+  Q: 'Chord 1',
+  W: 'Chord 2',
+  E: 'Chord 3',
+  A: 'Heater 4',
+  S: 'Clap',
+  D: 'Open HH',
+  Z: 'Kick \'n Hat',
+  X: 'Kick',
+  C: 'Closed HH',
+  q: 'Heater 1',
+  w: 'Heater 2',
+  e: 'Heater 3',
+  a: 'Shaker',
+  s: 'Open HH',
+  d: 'Closed HH',
+  z: 'Punchy Kick',
+  x: 'Side stick',
+  c: 'Snare',
+}
+
